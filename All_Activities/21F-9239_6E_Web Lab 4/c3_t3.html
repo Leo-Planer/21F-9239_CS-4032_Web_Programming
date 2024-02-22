@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <form id="calculatorForm">
+        <label for="num1">Enter Number 1:</label>
+        <input type="text" id="num1" required>
+
+        <label for="num2">Enter Number 2:</label>
+        <input type="text" id="num2" required>
+
+        <button type="button" onclick="calculate()">Calculate</button>
+
+        <p id="result"></p>
+    </form>
+
+    <script>
+        function calculate() {
+
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+
+            var sum = num1 + num2;
+            var difference = num1 - num2;
+            var product = num1 * num2;
+
+            // Check for division by zero
+            var quotient = num2 !== 0 ? num1 / num2 : "Cannot divide by zero";
+            document.getElementById("result").innerHTML = "Sum: " + sum + "<br>" +
+                "Difference: " + difference + "<br>" +
+                "Product: " + product + "<br>" +
+                "Quotient: " + quotient;
+        }
+    </script>
+</body>
+
+</html>
