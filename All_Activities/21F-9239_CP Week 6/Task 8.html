@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="jQuery.min.js"></script>
+  <title>Animation</title>
+  <style>
+    #animatedDiv {
+      width: 100px;
+      height: 50px;
+      background-color: #3498db;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div id="animatedDiv"></div>
+
+  <script>
+    $(document).ready(function() {
+      $("#animatedDiv").animate({
+        left: '250px'
+      }, 8000);
+    });
+  </script>
+</body>
+</html>

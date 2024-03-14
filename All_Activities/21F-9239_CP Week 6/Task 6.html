@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <title>Total Width of Element</title>
+  <style>
+    p {
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+    }
+  </style>
+</head>
+<body>
+  <p id="6E">jQuery Exercises, Practice, Solution</p>
+
+  <script>
+    $(document).ready(function() {
+      var totalWidth = $("#myText").outerWidth(true);
+      alert("Total Width: " + totalWidth + " pixels");
+    });
+  </script>
+</body>
+</html>

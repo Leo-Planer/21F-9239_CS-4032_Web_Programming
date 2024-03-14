@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <title>Toggle Image Display</title>
+</head>
+<body>
+  <img id="myImage" src="path/to/image.jpg" alt="Sample Image">
+  <button id="toggleButton">Toggle Image</button>
+
+  <script>
+    $(document).ready(function() {
+      $("#toggleButton").click(function() {
+        $("#myImage").toggle();
+        $(this).text(function(i, text){
+          return text === "Toggle Image" ? "Hide Image" : "Toggle Image";
+        });
+      });
+    });
+  </script>
+</body>
+</html>
