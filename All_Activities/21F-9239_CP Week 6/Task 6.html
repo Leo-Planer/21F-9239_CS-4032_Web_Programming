@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <title>Total Width of Element</title>
+  <script src="https://code.jquery.com/jquery-git.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculate width of text including padding using jQuery</title>
   <style>
     p {
       padding-top: 50px;
@@ -13,12 +15,23 @@
   </style>
 </head>
 <body>
-  <p id="6E">jQuery Exercises, Practice, Solution</p>
+  <p id="myText">jQuery Exercises, Practice, Solution</p>
 
   <script>
     $(document).ready(function() {
-      var totalWidth = $("#myText").outerWidth(true);
-      alert("Total Width: " + totalWidth + " pixels");
+      var textWidth = $('#myText').width();
+      var paddingTop = parseInt($('#myText').css('padding-top'));
+      var paddingRight = parseInt($('#myText').css('padding-right'));
+      var paddingBottom = parseInt($('#myText').css('padding-bottom'));
+      var paddingLeft = parseInt($('#myText').css('padding-left'));
+
+      alert("Padding Top: " + paddingTop +
+        "\nPadding Right: " + paddingRight +
+        "\nPadding Bottom: " + paddingBottom +
+        "\nPadding Left: " + paddingLeft);
+
+      var totalWidth = textWidth + paddingLeft;
+      alert("Width of text including padding: " + totalWidth + " pixels");
     });
   </script>
 </body>

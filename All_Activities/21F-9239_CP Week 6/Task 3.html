@@ -5,14 +5,16 @@
   <title>Toggle Image Display</title>
 </head>
 <body>
-  <img id="myImage" src="path/to/image.jpg" alt="Sample Image">
-  <button id="toggleButton">Toggle Image</button>
+  <img id="myImage" src="Fast Logo.png" alt="Sample Image">
+  <button id="toggleButton">Hide Image</button>
 
   <script>
     $(document).ready(function() {
-      $("#toggleButton").click(function() {
+      $("#toggleButton").click(function() 
+      {
         $("#myImage").toggle();
-        $(this).text(function(i, text){
+        $(this).text(function(i, text)
+        {
           return text === "Toggle Image" ? "Hide Image" : "Toggle Image";
         });
       });
