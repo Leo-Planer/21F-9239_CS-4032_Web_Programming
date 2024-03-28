@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+      }
+      .navbar-brand {
+        font-weight: bold;
+        color: #343a40 !important;
+      }
+      .skills{
+        display: flex;
+        
+      }
+      .jumbotron {
+        background-color: #343a40;
+        color: #ffffff;
+      }
+      #git,
+      #linkdin,
+      #twitter {
+        width: 60px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="home" class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">Explore my skills, projects, and experiences.</p>
+      </div>
+    </div>
+
+    <div id="about" class="container py-5">
+      <h2 class="mb-4">About Me</h2>
+      <p>
+        I am a Student with hands on experience of 3 years of Programming in
+        Several Languages. <br><br>My Skills: 
+        <div class="skills">
+        <ul>
+          <li>C/C++</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Assembley Language</li>
+        </ul>
+         <ul>
+          <li>.Net FrameWork</li>
+          <li>WxWidgets</li>
+          <li>Software Packaging</li>
+          <li>MS Office</li>
+          <li>Data Scrapping</li>
+          
+        </ul>
+        </div>
+      </p>
+      <p></p>
+    </div>
+
+    <div id="projects" class="container py-5">
+      <h2 class="mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Snake Game</h5>
+              <p class="card-text">
+                I have made snake game in C++ and It's my First Programming
+                Project.
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Inventory Management System</h5>
+              <p class="card-text">
+                Inventory Management System for local shops to keep track of
+                stock and prices. Made with C++ and .Net
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Word Suggestions Generator</h5>
+              <p class="card-text">
+                A Project that is drived from concepts of Data Structures. A
+                Packaged Software that can be installed on both Windows 32 and
+                x64
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Event Management System</h5>
+              <p class="card-text">
+                Event Management System made with Oracle Database highly
+                showcasing database and GUI concepts. Skills: C++, SQL, PL/SQL,
+                Oracle DB.
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Potion Explosion Game Linux</h5>
+              <p class="card-text">
+                A Game based on real Potion Explosion game. It was made to
+                implement concepts of Multi-Threading, Shared Space Management
+                and Effiecient Memory Utilization.
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">To-Do List</h5>
+              <p class="card-text">
+                A Package Software with .msi installer. Skills Used : C++,
+                WxWidgets and Advanced Installer.
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="contact" class="bg-dark text-light py-4">
+      <div class="container text-center">
+        <h2>Contact Me</h2>
+        <p>
+          Email:
+          <a href="mailto:f219239@cfd.nu.edu.pk" target="_blank">f219239@cfd.nu.edu.pk</a>
+        </p>
+        <p>Phone: <a href="https://wa.me/+923117435321" target="_blank">+92 311 743521</a></p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/leo-planer-399a161b7/"
+               target="_blank"><img id="linkdin" src="linkedin.png" alt=""
+            /></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/Leo-Planer"
+              ><img id="git" src="github.png" target="_blank" alt=""
+            /></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com"
+              ><img src="twitter.png" id="twitter"  target="_blank" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
