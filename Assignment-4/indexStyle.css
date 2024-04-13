@@ -1,0 +1,10 @@
+.container {
+  background-color: brown;
+  height: 450px;
+  width: 650px;
+  position: relative;
+  
+}
+.col-lg-8 col-md-8 {
+  color: red;
+}
