@@ -1,0 +1,65 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.h-font {
+  font-family: "Merienda", cursive;
+}
+.carousel {
+  width: 100%;
+  display: block;
+  height: 32rem;
+  object-fit: cover;
+  
+}
+.label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+#Name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.link{
+  display: inline-block;
+  margin-bottom: 2px;
+  text-decoration: none;
+  font-size: 23px;
+}
+.availability-form
+{
+margin-top: -9rem;
+z-index: 2;
+position: relative;
+}
+
+@media screen and (max-width:575px) 
+{
+  .availability-form
+    {
+    margin-top: 1rem;
+    padding:0 35px;
+    }
+
+  .card{
+    border: 0;
+    box-shadow: 4px;
+    margin: auto;
+    max-width: 350px;
+  }
+}
+
+.Reach-Margin{
+  margin-top: 6rem;
+ 
+}
+
+#h5{
+
+  font-weight: 600;
+  
+}
+.RightM{
+float: right;
+}
+
