@@ -33,8 +33,11 @@ body{
 }
 .nav-logo p{
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
+}
+.nav-logo a {
+    text-decoration: none;
 }
 .nav-menu ul{
     display: flex;
@@ -172,17 +175,19 @@ header{
     color: #fff;
     font-size: small;
     margin-top: 10px;
+    
 }
 .two-col .one{
     display: flex;
     gap: 5px;
 }
-.two label a{
+.two-col label a{
     text-decoration: none;
     color: #fff;
 }
-.two label a:hover{
-    text-decoration: underline;
+
+.two-col label a:hover{
+    text-decoration: dotted underline;
 }
 @media only screen and (max-width: 786px){
     .nav-button{

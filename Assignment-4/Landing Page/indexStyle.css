@@ -20,12 +20,6 @@
   font-size: 25px;
   font-weight: bold;
 }
-.link{
-  display: inline-block;
-  margin-bottom: 2px;
-  text-decoration: none;
-  font-size: 23px;
-}
 .availability-form
 {
 margin-top: -9rem;
@@ -55,11 +49,70 @@ position: relative;
 }
 
 #h5{
-
   font-weight: 600;
-  
 }
 .RightM{
 float: right;
 }
 
+/* Facilities Container */
+.box-container {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Include transform transition */
+  overflow: hidden; 
+  vertical-align: top; /* Align boxes at the top */
+}
+
+.box-container img {
+  width: 80px;
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px;
+}
+
+.box-container h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333333;
+}
+
+.box-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-12px);
+}
+
+
+
+/* Links */
+
+.link {
+  display: inline-block;
+  margin-bottom: 2px;
+  text-decoration: none;
+  font-size: 23px;
+  padding-left: 8px;
+  color: #333333; 
+  position: relative; 
+  transition: color 0.3s ease;
+}
+.link img,i{
+  margin-right:9px ;
+}
+
+
+.link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; 
+  width: 0; 
+  height: 2px; 
+  background-color: #c7d0d2; 
+  transition: width 0.55s ease;
+}
+
+.link:hover::after {
+  width: 100%; 
+}
