@@ -38,17 +38,17 @@
     },
     {
         "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
-        "price": 200,
+        "name":" R6_Standard Room",
+        "price": 4500,
         "image": "img/6.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "description": "Our Wooden-themed Room offers a cozy and rustic atmosphere, with wooden furnishings and accents that create a warm and inviting ambiance. The room features a comfortable king-sized bed with a wooden headboard, a wooden desk and chair, and a wooden wardrobe. The en-suite bathroom is elegantly designed with wooden finishes and includes a shower and complimentary toiletries."
     },
     {
         "id": 7,
-        "name":" LD07 LOUNGE CHAIR",
-        "price": 200,
+        "name":" R_7 Suite Room",
+        "price": 7500,
         "image": "img/7.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "description": "Our Suite offers a luxurious and spacious accommodation, perfect for those looking for an indulgent stay. The suite features a separate bedroom with a king-sized bed, a living room with a sofa and armchairs, a dining area, and a private balcony with panoramic views. The marble bathroom includes a bathtub, a separate rain shower, and premium toiletries for a relaxing experience."
     },
     {
         "id": 8,
