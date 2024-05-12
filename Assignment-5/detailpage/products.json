@@ -2,7 +2,7 @@
 
     {
         "id": 1,
-        "name":"Standard Double Room",
+        "name":"R1_Standard Room",
         "price": 5000,
         "image": "img/1.jpg",
         "description": "This cozy room offers a comfortable double bed, perfect for solo travelers or couples. The room features a modern design with warm colors and includes a work desk, a flat-screen TV, and a small seating area. The en-suite bathroom is equipped with a shower, complimentary toiletries, and fluffy towels. Guests can enjoy free Wi-Fi and daily housekeeping service."
@@ -10,10 +10,10 @@
     
     {
         "id": 2,
-        "name":" LD02 LOUNGE CHAIR",
-        "price": 250,
+        "name":" R2_Standard Double Room",
+        "price": 8000,
         "image": "img/2.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "description": "The suite features a separate bedroom with a king-sized bed, a living room with a sofa and armchairs, a dining area, and a private balcony with stunning views. The en-suite bathroom is equipped with a bathtub, a separate shower, and premium toiletries.."
     },
     {
         "id": 3,
