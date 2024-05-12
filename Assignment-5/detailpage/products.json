@@ -45,17 +45,28 @@
     },
     {
         "id": 7,
-        "name":" R_7 Suite Room",
+        "name":" R7_Suite Room",
         "price": 7500,
         "image": "img/7.png",
         "description": "Our Suite offers a luxurious and spacious accommodation, perfect for those looking for an indulgent stay. The suite features a separate bedroom with a king-sized bed, a living room with a sofa and armchairs, a dining area, and a private balcony with panoramic views. The marble bathroom includes a bathtub, a separate rain shower, and premium toiletries for a relaxing experience."
     },
     {
         "id": 8,
+        "name":" R8_Emperor Room ",
+        "price": 12000,
+        "image": "img/8.jpg",
+        "description": "Our Emperor Room epitomizes luxury and opulence, offering a grand living space fit for royalty. The room features a majestic king-sized bed with lavish bedding, a spacious seating area with elegant furnishings, and a dining area for private meals. The marble bathroom is a sanctuary of indulgence, complete with a deep soaking tub, a separate rain shower, and premium toiletries. Enjoy breathtaking views of the city skyline from your private balcony."
+        
+        
+    },
+
+    {
+        "id": 9,
         "name":" LD08 LOUNGE CHAIR",
         "price": 200,
-        "image": "img/8.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "image": "img/8.jpg",
+        "description": "Expertly rendered by Carl Hansen & Søn,"
     }
+
 
 ]
