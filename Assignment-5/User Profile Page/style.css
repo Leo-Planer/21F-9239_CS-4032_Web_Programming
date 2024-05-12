@@ -1,0 +1,72 @@
+.ui-w-80 {
+    width : 80px !important;
+    height: auto;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.light-style {
+    background-color: #f9f9fa;
+}
+
+.account-settings-links a {
+    color: #495057;
+}
+
+.account-settings-links a.active {
+    background-color: #007bff;
+}
+
+.account-settings-fileinput {
+    display: none;
+}
+
+.account-settings-fileinput + label {
+    margin-bottom: 0;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #545b62;
+}
+
+.btn-default:focus, .btn-default.focus {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.btn-default.disabled, .btn-default:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-twitter {
+    color: #fff;
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.btn-instagram {
+    color: #fff;
+    background-color: #c32aa3;
+    border-color: #c32aa3;
+}
+
