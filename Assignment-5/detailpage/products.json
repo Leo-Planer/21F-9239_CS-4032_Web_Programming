@@ -17,24 +17,24 @@
     },
     {
         "id": 3,
-        "name":" R3_Balcony Room",
-        "price": 7000,
+        "name":" R3_Single Bed Room",
+        "price": 4000,
         "image": "img/3.png",
-        "description": "Our Balcony Room offers a relaxing retreat with a private balcony overlooking the city skyline. The room features a comfortable king-sized bed, a seating area, and a spacious marble bathroom with a bathtub and separate shower. Step out onto your balcony to enjoy the fresh air and panoramic views.."
+        "description": "Our Single Bed Room is designed for solo travelers looking for a comfortable and cozy space. The room features a plush single bed, a work desk, and a private bathroom with a shower. Relax after a long day of exploring the city or attending meetings and enjoy the convenience of our in-room amenities."
     },
     {
         "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
-        "price": 200,
+        "name":" R4_Balcony Room",
+        "price": 7000,
         "image": "img/4.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "description": "Our Balcony Room offers a relaxing retreat with a private balcony overlooking the city skyline. The room features a comfortable king-sized bed, a seating area, and a spacious marble bathroom with a bathtub and separate shower. Step out onto your balcony to enjoy the fresh air and panoramic views."
     },
     {
         "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
-        "price": 300,
+        "name":" R5_Windowed Bedroom",
+        "price": 6000,
         "image": "img/5.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "description": "Our Windowed Bedroom offers a comfortable and well-lit space with a large window that lets in natural light and offers views of the surroundings. The room features a queen-sized bed, a work desk, and a modern en-suite bathroom with a shower. Enjoy a peaceful stay with the convenience of our in-room amenities."
     },
     {
         "id": 6,
