@@ -11,16 +11,16 @@
     {
         "id": 2,
         "name":" R2_Standard Double Room",
-        "price": 8000,
+        "price": 9500,
         "image": "img/2.png",
         "description": "The suite features a separate bedroom with a king-sized bed, a living room with a sofa and armchairs, a dining area, and a private balcony with stunning views. The en-suite bathroom is equipped with a bathtub, a separate shower, and premium toiletries.."
     },
     {
         "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
-        "price": 290,
+        "name":" R3_Balcony Room",
+        "price": 7000,
         "image": "img/3.png",
-        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+        "description": "Our Balcony Room offers a relaxing retreat with a private balcony overlooking the city skyline. The room features a comfortable king-sized bed, a seating area, and a spacious marble bathroom with a bathtub and separate shower. Step out onto your balcony to enjoy the fresh air and panoramic views.."
     },
     {
         "id": 4,
