@@ -2,7 +2,7 @@
 
     {
         "id": 1,
-        "name":"R1_Standard Room",
+        "name":"Standard Room",
         "price": 5000,
         "image": "img/1.jpg",
         "description": "This cozy room offers a comfortable double bed, perfect for solo travelers or couples. The room features a modern design with warm colors and includes a work desk, a flat-screen TV, and a small seating area. The en-suite bathroom is equipped with a shower, complimentary toiletries, and fluffy towels. Guests can enjoy free Wi-Fi and daily housekeeping service."
@@ -10,42 +10,42 @@
     
     {
         "id": 2,
-        "name":" R2_Standard Double Room",
+        "name":" Standard Double Room",
         "price": 9500,
         "image": "img/2.png",
         "description": "The suite features a separate bedroom with a king-sized bed, a living room with a sofa and armchairs, a dining area, and a private balcony with stunning views. The en-suite bathroom is equipped with a bathtub, a separate shower, and premium toiletries.."
     },
     {
         "id": 3,
-        "name":" R3_Single Bed Room",
+        "name":" Single Bed Room",
         "price": 4000,
         "image": "img/3.png",
         "description": "Our Single Bed Room is designed for solo travelers looking for a comfortable and cozy space. The room features a plush single bed, a work desk, and a private bathroom with a shower. Relax after a long day of exploring the city or attending meetings and enjoy the convenience of our in-room amenities."
     },
     {
         "id": 4,
-        "name":" R4_Balcony Room",
+        "name":" Balcony Room",
         "price": 7000,
         "image": "img/4.png",
         "description": "Our Balcony Room offers a relaxing retreat with a private balcony overlooking the city skyline. The room features a comfortable king-sized bed, a seating area, and a spacious marble bathroom with a bathtub and separate shower. Step out onto your balcony to enjoy the fresh air and panoramic views."
     },
     {
         "id": 5,
-        "name":" R5_Windowed Bedroom",
+        "name":" Windowed Bedroom",
         "price": 6000,
         "image": "img/5.png",
         "description": "Our Windowed Bedroom offers a comfortable and well-lit space with a large window that lets in natural light and offers views of the surroundings. The room features a queen-sized bed, a work desk, and a modern en-suite bathroom with a shower. Enjoy a peaceful stay with the convenience of our in-room amenities."
     },
     {
         "id": 6,
-        "name":" R6_Standard Room",
+        "name":" Standard Room",
         "price": 4500,
         "image": "img/6.png",
         "description": "Our Wooden-themed Room offers a cozy and rustic atmosphere, with wooden furnishings and accents that create a warm and inviting ambiance. The room features a comfortable king-sized bed with a wooden headboard, a wooden desk and chair, and a wooden wardrobe. The en-suite bathroom is elegantly designed with wooden finishes and includes a shower and complimentary toiletries."
     },
     {
         "id": 7,
-        "name":" R7_Suite Room",
+        "name":" Suite Room",
         "price": 7500,
         "image": "img/7.png",
         "description": "Our Suite offers a luxurious and spacious accommodation, perfect for those looking for an indulgent stay. The suite features a separate bedroom with a king-sized bed, a living room with a sofa and armchairs, a dining area, and a private balcony with panoramic views. The marble bathroom includes a bathtub, a separate rain shower, and premium toiletries for a relaxing experience."
@@ -58,14 +58,6 @@
         "description": "Our Emperor Room epitomizes luxury and opulence, offering a grand living space fit for royalty. The room features a majestic king-sized bed with lavish bedding, a spacious seating area with elegant furnishings, and a dining area for private meals. The marble bathroom is a sanctuary of indulgence, complete with a deep soaking tub, a separate rain shower, and premium toiletries. Enjoy breathtaking views of the city skyline from your private balcony."
         
         
-    },
-
-    {
-        "id": 9,
-        "name":" R9_Modern Room",
-        "price": 6500,
-        "image": "img/8.jpg",
-        "description": "Our Modern Room offers a contemporary and stylish living space designed for comfort and convenience. The room features a queen-sized bed with premium bedding, a sleek work desk, and a cozy seating area. The modern bathroom is equipped with a rain shower and complimentary toiletries. Enjoy the latest technology with a flat-screen TV, free Wi-Fi, and USB charging ports."
     }
 
 
