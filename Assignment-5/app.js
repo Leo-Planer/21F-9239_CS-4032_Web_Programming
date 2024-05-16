@@ -2,6 +2,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('mongodb');
+const multer = require('multer');
+const path = require('path');
 
 const app = express();
 const port = 3000;
@@ -20,7 +22,7 @@ let db;
 MongoClient.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(client => {
         console.log('Connected to MongoDB');
-        db = client.db('Users');
+        db = client.db('Users'); // Update the database name
 
         // Start the server
         app.listen(port, () => {
@@ -34,7 +36,7 @@ app.post('/submit', (req, res) => {
     const { name, email } = req.body;
 
     // Insert into MongoDB collection
-    const collection = db.collection('Customers');
+    const collection = db.collection('customers'); // Update the collection name
     collection.insertOne({ name, email })
         .then(result => {
             console.log('Data inserted:', result.ops[0]);

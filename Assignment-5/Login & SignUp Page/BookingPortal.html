@@ -21,9 +21,9 @@
         </div>
         <div class="nav-menu" id="navMenu">
             <ul>
-                <li><a href="#" class="link active">Home</a></li>
-                <li><a href="#" class="link">Services</a></li>
-                <li><a href="#" class="link">About</a></li>
+                <li><a href="../Landing Page/index.html" class="link active">Home</a></li>
+                <li><a href="../Landing Page/index.html" class="link">Services</a></li>
+                <li><a href="../Landing Page/index.html" class="link">About</a></li>
             </ul>
         </div>
         <div class="nav-button">
@@ -36,11 +36,11 @@
     </nav>
 
 <!----------------------------- Form box ----------------------------------->    
-    <div class="form-box" action="/submit" method="post">
+    <div class="form-box">
         
         <!------------------- login form -------------------------->
 
-        <div class="login-container" id="login">
+        <form class="login-container" id="login" action="/submit" method="POST">
             <div class="top">
                
                 <header>Login</header>
@@ -65,10 +65,10 @@
                     <label><a href="../Forgot Password & Email Verification Page/Forgot Password Page.html">Forgot password?</a></label>
                 </div>
             </div>
-        </div>
+        </form>
 
         <!------------------- registration form -------------------------->
-        <div class="register-container" id="register">
+        <form class="register-container" id="register">
             <div class="top">
                 
                 <header>Sign Up</header>
@@ -99,11 +99,11 @@
                     <label><a href="#">Terms & conditions</a></label>
                 </div>
                 <div class="two">
-                  <label >  <span>Already Registered? <a href="#" onclick="login()">Log In</a></span></label>
+                  <label >  <span>Already Registered? <a href="../Forgot Password & Email Verification Page/Email Verification.html" onclick="login()">Log In</a></span></label>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </div>   
 
 <script>
