@@ -9,7 +9,7 @@ const app = express();
 const port = 3000;
 const mongoURI = 'mongodb://localhost:27017/mydatabase';
 
-// Body parser middleware
+// Body parser middleware 
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Serve static files from the public directory
